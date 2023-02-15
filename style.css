@@ -32,6 +32,8 @@ html {
 
 .text-container {
     font-size: 13px;
+    padding: 2em;
+    line-height: 150%;
 }
 
 .text-container__title {
@@ -44,8 +46,38 @@ html {
     font-weight: 400;
 }
 
+.avatar-container__profile-info {
+    font-size: 13px;
+}
+
+.share-container {
+    padding: 0em 2em 0.5em 2em;
+}
+
 .avatar-container {
     display: flex;
+    align-items: center;
+}
+
+.avatar-container__avatar-image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.avatar-image {
+    width: 100%;
+}
+
+.avatar-container__profile-info {
+    padding-left: 1em;
+}
+
+.forward-image {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 /* DESKTOP */
