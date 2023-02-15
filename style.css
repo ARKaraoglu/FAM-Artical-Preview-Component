@@ -30,6 +30,14 @@ html {
     overflow: hidden;
 }
 
+/* .image-container {
+    display: flex;
+} */
+
+.main-image {
+    /* max-height: 13.75rem; */
+}
+
 .text-container {
     font-size: 13px;
     padding: 2em;
@@ -57,13 +65,18 @@ html {
 .avatar-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-container__second-container {
+    display: flex;
+    align-items: center;
 }
 
 .avatar-container__avatar-image {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    background-color: red;
     overflow: hidden;
 }
 
@@ -75,9 +88,27 @@ html {
     padding-left: 1em;
 }
 
+.forward-image-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-inline: left;
+}
+
+.avatar-container__forward-image {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: hsl(210, 46%, 95%);
+    padding: 0.4em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar-container__forward-image:hover {
+    cursor: pointer;
+}
+
 .forward-image {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 100%;
 }
 
 /* DESKTOP */
