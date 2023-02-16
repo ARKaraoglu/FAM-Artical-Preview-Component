@@ -10,8 +10,13 @@ html {
 
 .body {
     margin: 0;
+    height: 100%;
     font-family: "Kumbh Sans", sans-serif;
     background-color: hsl(210, 46%, 95%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main {
@@ -21,7 +26,8 @@ html {
 /* MOBILE */
 
 .container {
-    margin: 3em;
+    max-width: 21.5625rem;
+    margin: 1em;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -34,9 +40,9 @@ html {
     display: flex;
 } */
 
-.main-image {
-    /* max-height: 13.75rem; */
-}
+/* .main-image {
+    max-height: 13.75rem;
+} */
 
 .text-container {
     font-size: 13px;
