@@ -40,10 +40,6 @@ html {
     overflow: hidden;
 }
 
-.image-container {
-    /* display: flex; */
-}
-
 .main-image {
     width: 100%;
 }
@@ -102,10 +98,6 @@ html {
     display: flex;
     justify-content: flex-end;
     margin-inline: left;
-}
-
-ion-icon {
-    color: white;
 }
 
 .avatar-container__forward-image {
@@ -215,5 +207,21 @@ ion-icon {
     .links-container__text {
         height: 100%;
         vertical-align: middle;
+    }
+
+    .avatar-container__forward-image-desktop {
+        width: 1.2rem;
+        height: 1.2rem;
+        background-color: hsl(217, 19%, 35%);
+        padding: 0.4em;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .forward-image-mobile-disabled {
+        display: block;
+        color: hsl(214, 17%, 51%);
+        font-size: 1.1rem;
+        margin-inline: auto;
     }
 }
